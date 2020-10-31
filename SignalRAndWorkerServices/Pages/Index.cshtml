@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">SignalR & Worker Services</h1>
+    <h4 id="messageCount"></h4>
+</div>
+<div id="messages">
+</div>
+<script src="~/lib/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/messagebroker.js"></script>
