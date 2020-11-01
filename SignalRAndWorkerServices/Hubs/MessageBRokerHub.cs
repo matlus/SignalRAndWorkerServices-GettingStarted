@@ -2,7 +2,7 @@
 
 namespace SignalRGettingStarted
 {
-    public sealed class MessageBRokerHub : Hub
+    public sealed class MessageBrokerHub : Hub
     {
     }
 }

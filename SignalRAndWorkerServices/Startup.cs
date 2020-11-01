@@ -52,7 +52,7 @@ namespace SignalRGettingStarted
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapHub<MessageBRokerHub>("/messagebroker");
+                endpoints.MapHub<MessageBrokerHub>("/messagebroker");
             });
         }
     }

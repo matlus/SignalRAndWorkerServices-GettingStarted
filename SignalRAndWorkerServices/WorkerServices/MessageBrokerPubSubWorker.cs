@@ -8,9 +8,9 @@ namespace SignalRGettingStarted.WorkerServices
 {
     public sealed class MessageBrokerPubSubWorker : BackgroundService
     {
-        private readonly IHubContext<MessageBRokerHub> _messageBrokerHubContext;
+        private readonly IHubContext<MessageBrokerHub> _messageBrokerHubContext;
 
-        public MessageBrokerPubSubWorker(IHubContext<MessageBRokerHub> messageBrokerHubContext)
+        public MessageBrokerPubSubWorker(IHubContext<MessageBrokerHub> messageBrokerHubContext)
         {
             _messageBrokerHubContext = messageBrokerHubContext;
         }
